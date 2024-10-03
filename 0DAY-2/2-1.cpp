@@ -11,4 +11,5 @@ int main(){
     else{
         cout<<"Number is not divisible by 5.";
     }
+    return 0;
 }
