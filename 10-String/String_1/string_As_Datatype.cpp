@@ -18,6 +18,7 @@ int main(){
 
     //2.  To tackle this we use getline
     string s;
+    // system("cls"); // This will clear the screen 
     getline(cin,s);
     cout<<s;
 }
