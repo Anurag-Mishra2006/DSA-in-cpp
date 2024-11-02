@@ -10,7 +10,7 @@ int main(){
     int num;
     cin>>num;
     
-    if( isEven(num)==1){
+    if( isEven(num)){
         cout<<"Number is Even "<<endl;
     }
     else cout<<"Number is Odd ";

@@ -5,9 +5,10 @@ void display(int a[],int size){
         cout<<a[i]<<"  ";
     }
     cout<<endl;
-    cout<<a<<endl;
-    cout<<a[0]<<endl;
-    cout<<&a[0]<<endl;
+     return;
+}
+void change(int b[]){
+    b[0]= 100;
 }
 int main(){
     int arr[]={1,4,3,7,4};
@@ -15,9 +16,10 @@ int main(){
     // Accessing the element in another funtion
     // Updation pass by refrence
     display(arr,size);
-    cout<<endl;
-    cout<<arr<<endl; // Passing Array to Function BY refrence i.e ham address of array send karte h
-    cout<<size;
+    change(arr); // Passing Array to Function BY refrence i.e ham address of array send karte h
+    display(arr,size);
+
+    
 
 
 
