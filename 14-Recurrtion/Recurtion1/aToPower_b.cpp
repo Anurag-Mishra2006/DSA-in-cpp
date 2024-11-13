@@ -6,6 +6,6 @@ int power(int a , int b){//2*b space is used
     return a * power(a,b-1);
 }
 int main(){
-     cout<<power(3,8);
+     cout<<power(3,6);
 }
 // space complexity of recurtion is O(n)stack frames
