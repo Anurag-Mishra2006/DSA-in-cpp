@@ -1,0 +1,1 @@
+if (flag == false) cout << -1;
