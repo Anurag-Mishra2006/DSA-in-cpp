@@ -7,6 +7,14 @@ void print(int n){
     // so now move to the code written below the recursive call
 
     cout<<n<<endl;  
+    // if we just put this code above the recursive call 
+    /*
+    5
+    4
+    3
+    2
+    1
+    */
 }
 int main(){
     print(5);

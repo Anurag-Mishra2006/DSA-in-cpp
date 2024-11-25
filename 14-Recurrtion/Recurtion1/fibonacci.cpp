@@ -2,6 +2,8 @@
 using namespace std;
 int fibo(int n)
 {
+    // recursion is based on the recurrence relation / formula
+    
     if (n == 1 || n == 2)
         return 1;
     return fibo(n - 1) + fibo(n - 2); // here fibo call itself twice'
