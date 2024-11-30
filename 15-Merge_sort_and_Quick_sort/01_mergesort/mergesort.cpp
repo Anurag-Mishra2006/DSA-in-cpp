@@ -47,6 +47,8 @@ void mergeSort(vector<int>&v){
 
     // Merge 
     merge(a,b,v);
+    a.clear(); // used for the optimisation of space complexity
+    b.clear();
 }
 int main(){
     int arr[]={1,4,5,9};
@@ -62,3 +64,4 @@ int main(){
         cout<<res[i]<<" ";
     }
 }
+ 
