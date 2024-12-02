@@ -15,7 +15,7 @@ int main(){
     v.push_back(temp);
  }
 
-// //  VEctor print
+// //  Vector print
 //     for(int i=0; i<v.size();i++){
 //         cout<<v[i]<<endl;
 //     }
@@ -24,7 +24,7 @@ int main(){
     // Sorting 
    //   Jo sorting hoga wo ascii value ke according hota h
    //  captail letter se start hone wale pahle and then lower case me according to ascii value
-   
+
     sort(v.begin(),v.end());// sorting se same word saath aa gye 
 
      int maxcount=1;

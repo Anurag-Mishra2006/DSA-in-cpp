@@ -5,7 +5,7 @@
 using namespace std;
 int main(){
     string str="12345";
-    // To convert this string into int we use stoi
+    // To convert this string into integer  we use stoi
     int x=stoi(str);
     cout<<x<<endl;//12345
     cout<<x+1;//12346     //by this + the last element get  add with 1
