@@ -41,6 +41,7 @@ int main(){
         for(int i = 0;i<26;i++){
                 if(arr[i]>mx) mx = arr[i];
         }
+        
         for(int i = 0;i<26;i++){
                 if(arr[i]==mx){
                         int ascii = i + 97;
