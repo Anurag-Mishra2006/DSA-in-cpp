@@ -1,3 +1,4 @@
+//  array ko pass by reference karte h
 #include<iostream>
 using namespace std;
 void display(int a[],int size){

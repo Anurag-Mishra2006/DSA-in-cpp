@@ -5,7 +5,9 @@
 using namespace std;
 int main(){
     int arr[]={4,3,9,2,5,8};
-    int *ptr=arr; //Giving address 
+    int *ptr=arr; //Giving address
+    //  through the pointer we can modified the original one 
+
     ptr[0]=8;
     for(int i=0;i<=4;i++){
         cout<<ptr[i]<<" ";
@@ -20,4 +22,4 @@ int main(){
         
     }
 }
-// 30
+  
