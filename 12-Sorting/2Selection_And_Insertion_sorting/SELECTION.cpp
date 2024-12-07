@@ -3,7 +3,8 @@
 using namespace std;
 int main(){
     // selection  sort is used when we want the smallest element firstly
-    // isme ham first element ko select karenge if it is the smallest then no swapping otherwise we swap it with the smallest number from the remaining element
+    // isme ham first element ko select karenge if it is the smallest then no swapping
+    //  otherwise we swap it with the smallest number from the remaining element
 
     // when there is cost for swapping selection sort is consider as better than bubble sort
     int arr[]={5,3,1,2,4};
