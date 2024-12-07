@@ -1,3 +1,8 @@
+/**
+ * Given an with N distinct elements , convert the given array to a form where all the are in the range from 0 to N-1.
+ * The order of element is the same i.e 0 is place in the place of the smallest element 
+ * 
+ */
 #include<iostream>  
 #include<vector>
 #include<climits>
