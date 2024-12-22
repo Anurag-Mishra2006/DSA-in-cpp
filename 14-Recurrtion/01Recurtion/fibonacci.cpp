@@ -13,5 +13,7 @@ int fibo(int n)
 }
 int main()
 {
+    //  Time Complexity is O(2^n) --> exponential time complexity
+    
     cout << fibo(8);
 } 

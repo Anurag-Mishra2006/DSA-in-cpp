@@ -2,7 +2,7 @@
 using namespace std;
 void print(int i ,int n){
     if(i>n)return ;
-    cout<<i<<endl;
+    cout<<i<<endl; // process recursive call ke pahle => tail recursion 
     print(i+1,n);
      
 }
