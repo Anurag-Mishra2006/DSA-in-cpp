@@ -1,7 +1,13 @@
-// 
+//  Sliding window Tech is  method used to efficiently solve problem that involves 
+        // defining a "window" or "range"
+    
+
+
 // question says return the array of size k such that elements are consecutive and sum will max
 
 // arr  = [-1,2,3,3,4,5,-1] k =4
+
+// 
 
 #include <bits/stdc++.h>
 using namespace std;
