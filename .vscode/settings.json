@@ -1,5 +1,6 @@
 {
     "files.associations": {
+        "*.ejs": "html",
         "iostream": "cpp",
         "ostream": "cpp",
         "*.tcc": "cpp",
@@ -9,6 +10,7 @@
         "initializer_list": "cpp",
         "regex": "cpp",
         "utility": "cpp",
-        "valarray": "cpp"
+        "valarray": "cpp",
+        "vector": "cpp"
     }
 }

@@ -1,0 +1,7 @@
+there are two types of traversal technique: 
+        1. BFS : Breadth First Search (ek level wale ko pahle dekh lo)
+        2. DFS : Depth First Search (different level)
+                : Types: 
+                    1. Inorder traversal (Left Root Right)
+                    2. PreOrder traversal (Root Left Right)
+                    3. PostOrder traversal (Left Right Root)

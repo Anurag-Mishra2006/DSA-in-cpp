@@ -12,12 +12,12 @@ int main() {
     //     }
     // }
     //  now making it in increasing order
-    for(int i=1;i*i< num;i++){
+    for(int i=2;i*i< num;i++){
         if(num%i==0){
             cout<<i<<" ";
         }
     }
-    for(int i=sqrt(num); i>=1; i--){
+    for(int i=sqrt(num); i>1; i--){
         if(num%i==0){
             cout<<num/i<<" ";
         }

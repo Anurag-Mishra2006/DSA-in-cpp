@@ -38,7 +38,6 @@ node* buildTree(node* root){
 
     return root;
 }
-// 17.00
 
 int main() {
     //  non-linear data structure...
