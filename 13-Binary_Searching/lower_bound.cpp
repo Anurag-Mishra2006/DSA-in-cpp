@@ -1,6 +1,7 @@
 //  Binary Search is only applicable when array is sorted
 //  Time complexity of binaary search is O(log n) is better than O(n)
 // After each operation the search space reduces as n/2 where n is the length of search space
+
 #include<iostream>
 using namespace std;
 int main(){
